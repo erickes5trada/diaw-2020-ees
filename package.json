@@ -1,0 +1,20 @@
+{
+  "name": "diaw-2020-ees",
+  "version": "0.0.0",
+  "description": "codigo base para administrar la paqueteria Front end xd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickes5trada/diaw-2020-ees.git"
+  },
+  "keywords": ["node","frontend"],
+  "author": "Erick Estrada Senado <erick.e.senado@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickes5trada/diaw-2020-ees/issues"
+  },
+  "homepage": "https://github.com/erickes5trada/diaw-2020-ees#readme"
+}
