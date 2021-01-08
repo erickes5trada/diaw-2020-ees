@@ -15,5 +15,14 @@ module.exports = {
         port: 4040,
         compress: true,
         publicPath: '/'
+    },
+    module : {
+        rules: [
+            {
+                test: /\.(js)$/,
+                exclude: /node_modules/,
+                use : ['babel-loader']
+            },
+        ]
     }
 }
