@@ -1,10 +1,10 @@
 /* eslint-disable no-alert */
 /* eslint-disable no-console */
 // Script del frontend
-console.log('Hello Modern JS Working!! Thanks BABEL....');
-const show = (message = 'Saludo por defecto') => {
-  alert(message);
-};
+// Importar estilos
+import './styles/styles.css';
 
-show();
-show('Mi saludo');
+console.log('Hello Modern JS Working!! Thanks BABEL....');
+// const show = (message = 'Saludo por defecto') => {
+//   alert(message);
+// };
