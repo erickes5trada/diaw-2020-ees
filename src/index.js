@@ -1,9 +1,10 @@
+/* eslint-disable no-alert */
+/* eslint-disable no-console */
 // Script del frontend
-console.log("Hello Modern JS Working!! Thanks BABEL....");
+console.log('Hello Modern JS Working!! Thanks BABEL....');
+const show = (message = 'Saludo por defecto') => {
+  alert(message);
+};
 
-let show = (message = "Saludo por defecto")=>{
-    alert(message)
-}
-
-show()
-show("Mi saludo")
+show();
+show('Mi saludo');
