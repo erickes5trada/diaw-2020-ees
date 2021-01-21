@@ -4,7 +4,7 @@
 // Importar estilos
 // import './styles/styles.css';
 import 'materialize-css/dist/css/materialize.css';
-import initDropdown from './helpers/dropdowninit';
+import dropdown from './helpers/dropdown';
 
 // console.log('Hello Modern JS Working!! Thanks BABEL....');
 // const show = (message = 'Saludo por defecto') => {
@@ -12,4 +12,4 @@ import initDropdown from './helpers/dropdowninit';
 // };
 
 // Ejecutando inicialización de dropdown
-initDropdown();
+dropdown.init();
