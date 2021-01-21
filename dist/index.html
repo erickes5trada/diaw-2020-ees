@@ -5,105 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Webpack</title>
   </head>
-  <body>
-
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Logo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="teal">
-      <h2>Mobile first design demo</h2>
-      <p>Resize the window to see the effect!!</p>
-    </div>
-
-    <hr>
-
-    <div class="row">
-      <div class="col m1 grey center">1</div>
-      <div class="col m1 center">2</div>
-      <div class="col m1 grey center">3</div>
-      <div class="col m1 center">4</div>
-      <div class="col m1 grey center">5</div>
-      <div class="col m1 center">6</div>
-      <div class="col m1 grey center">7</div>
-      <div class="col m1 center">8</div>
-      <div class="col m1 grey center">9</div>
-      <div class="col m1 center">10</div>
-      <div class="col m1 grey center">11</div>
-      <div class="col m1 center">12</div>
-    </div>
-
-    <div class="row">
-      <div class="col m4 l3 yellow">
-        <p>this text will use 12 columns on a small screen,
-           4 on a medium scree (m4), and 3 on a large screen (m3)
-        </p>
-      </div>
-      <div class="col s4 m8 l9 grey">
-        this text will use 4 columns on a small screen (s4),
-           8 on a medium scree (m8), and 9 on a large screen (l9)
+  <body class="bg-gray-200">
+    <div class="px-8 py-12">
+      <img class="h-10" src="/img/logo.svg" alt="workation logo">
+      <img class="mt-6 rounded-lg shadow-xl" src="/img/beach-work.jpg" alt="woman workin on the beach">
+      <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight">
+        Tu puedes trabajar donde quieras. 
+        <span class="text-indigo-500">Toma ventaja de ello </span>
+      </h1>
+      <p class="mt-2 text-gray-600">
+        workation te ayuda a encontrar espacios de trabajo remoto en bellos lugares
+        de modo que puedas disfrutar de un buen clima incluso cuando no estas de vacaciones
+      </p>
+      <div class="mt-4">
+        <a class="inline-block px-5 py-3 rounded-lg shadow-lg bg-indigo-500 text-sm text-white 
+        uppercase tracking-wider font-semibold" href="#">Reserva tu espacio</a>
       </div>
     </div>
-
-    <div style="background-color: aquamarine;" class="valign-wrapper">
-      <h5 class="left-align">Esto deberá estar alineado a la izquierda</h5>
-    </div>
-    <br>
-    <div style="background-color:blueviolet;color: azure;" >
-      <h5 class="right-align">Esto debe estar alineado a la derecha</h5>
-    </div>
-    <br>
-    <div style="background-color:aquamarine" >
-      <h5 class="center-align">Esto debe estar centrado</h5>
-    </div>
-
-    <div class="center-align">
-      <a href="#" class="dropdown-trigger btn" data-target="dropdown1">Drop Me!</a>
-    </div>
-    <br>
-    <!-- Drop down structure -->
-    <ul id="dropdown1" class="dropdown-content">
-      <li><a href="https://www.tecnm.mx">Ir a Tecnm</a></li>
-      <li><a href="https://gamadero.tecnm.mx">Ir a ITGAM</a></li>
-      <li class="divider" tabindex="-1"></li>
-      <li><a href="#!">Menu 3</a></li>
-      <li><a href="#!">Menu 4</a></li>
-    </ul>
-
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Footer Content</h5>
-            <p class="grey-text text-lighten-4">
-              You can use rows and columns here to organize your footer content.
-            </p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          © 2014 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-        </div>
-      </div>
-    </footer>
+   
 
     <script src="./bundle.js"></script>
   </body>

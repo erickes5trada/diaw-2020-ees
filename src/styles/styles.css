@@ -1,6 +1,4 @@
-body{
-    color:turquoise;
-    background-color: #252525;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
