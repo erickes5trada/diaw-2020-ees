@@ -43,8 +43,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "babel-loader": "^8.2.2",
-    "materialize-css": "^1.0.0"
+    "babel-loader": "^8.2.2"
   },
   "bundleDependencies": [
     "babel-loader"
